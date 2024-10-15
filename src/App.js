@@ -6,7 +6,7 @@ import Button2 from "./ButtonComponentPart2";
 export default function App() {
   return (
     <div className="App">
-      <h1>Reusable component</h1>
+      <h1>Reusable component's</h1>
       <h2>Reusable card component</h2>
       <Card border="1px solid blue">
         <h3>Title Inside Card</h3>
