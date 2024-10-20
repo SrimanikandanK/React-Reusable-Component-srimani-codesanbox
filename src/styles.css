@@ -1,6 +1,6 @@
 .App {
   font-family: sans-serif;
-  text-align: center;
+  /* text-align: center; */
 }
 /* Ensures that buttons are placed on new lines */
 .button-container {
@@ -10,4 +10,10 @@
   justify-content: center; /* Center buttons vertically if container has height */
   min-height: 100px; /* Optional: You can set a specific height if needed */
   gap: 25px;
+}
+.todo {
+  cursor: pointer;
+}
+.strike {
+  text-decoration: line-through;
 }
