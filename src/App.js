@@ -2,6 +2,10 @@ import "./styles.css";
 import Card from "./CardComponent";
 import Button from "./ButtonComponent";
 import Button2 from "./ButtonComponentPart2";
+import UseRefComponent from "./UseRefComponent";
+import UseMemoComponent from "./UseMemoComponent";
+import TodoApp from "./TodoApp";
+import TodoListApplication from "./TodoListApplication";
 
 export default function App() {
   return (
@@ -29,6 +33,7 @@ export default function App() {
           <i> (with icon)</i>
         </Button2>
       </div>
+      <TodoListApplication />
     </div>
   );
 }
